@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My News</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="well">
+  <!div class="jumbotron" style="width:70%; height:20%;">
+    <h1>My News 24x7      <small>Your daily dose of the world</small></h1>
+  </div>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Latest</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Corona virus stats
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">International</a></li>
+          <li><a href="#">National</a></li>
+          <li><a href="#">Local</a></li>
+        </ul>
+      </li>
+      <li><a href="#">International</a></li>
+      <li><a href="#">National</a></li>
+      <li><a href="#">Local</a></li>
+      <li><a href="#">Tech</a></li>
+      <li><a href="#">Glam</a></li>
+      <li><a href="#">Sports</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Polls</a></li>
+    </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li><div class="search-container" style="top: 100%">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+    </form>
+  </div>
+  </li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+</div>
+
+<div class="container-fluid">
+
+<div class="row text-center">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="article.html">
+      <img src="1.jpg" alt="Stark">
+      <div class="carousel-caption">
+        <h3>The Prodigy</h3>
+        <p>Thank you, Ironman!</p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="article.html">
+      <img src="3.jpg" alt="Enfield">
+      <div class="carousel-caption">
+        <h3>The 650 twins</h3>
+        <p>Thank you, Royal Enfield!</p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="article.html">
+      <img src="2.jpg" alt="Bentley">
+      <div class="carousel-caption">
+        <h3>Bentley</h3>
+        <p>My favorite machine</p>
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="thumbnail">
+      <img src="3.jpg" alt="New York">
+      <div class="caption">
+          <p><strong>Conitnental gt 650</strong></p>
+          <p>Royal Enfield news latest</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+        <div class="panel panel-primary " >
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="fa fa-line-chart"></span> Words from the editor!</h3>
+            </div>
+            <div class="panel-body" style="background-color:grey; height:300px; width: 100%">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        margin-top: 20px;
+    }
+
+    .panel-body:not(.two-col) {
+        padding: 0px;
+    }
+
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .glyphicon-new-window {
+        margin-left: 5px;
+    }
+
+    .panel-body .radio, .panel-body .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-body .list-group {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-none {
+        margin-bottom: 0;
+    }
+
+    .panel-body .radio label, .panel-body .checkbox label {
+        display: block;
+    }
+</style>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="article.html">
+        <img src="1.jpg" alt="Ironman" style="width:100%">
+        <div class="caption">
+          <p>Ironman</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="article.html">
+        <img src="2.jpg" alt="Enfield" style="width:100%">
+        <div class="caption">
+          <p>Royal Enfield</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="article.html">
+        <img src="3.jpg" alt="Bentley" style="width:100%">
+        <div class="caption">
+          <p>Bentley</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="well">
+<h2>Editor's pick</h2>
+<div class="row">
+<div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="3.jpg" alt="New York">
+      <div class="caption">
+          <p><strong>Conitnental gt 650</strong></p>
+          <p>Royal Enfield news latest</p>
+        </div>
+    </div>
+  </div><div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="3.jpg" alt="New York">
+      <div class="caption">
+          <p><strong>Conitnental gt 650</strong></p>
+          <p>Royal Enfield news latest</p>
+        </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+           <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="fa fa-line-chart"></span> Please Rate our service</h3>
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Excellent
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Good
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Satisfactory
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Needs Improvement
+                            </label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value=""> Poor
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-footer text-center">
+                <button type="button" class="btn btn-primary btn-block btn-sm">
+                    Vote</button>
+                <a href="#" class="small">View Result</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        margin-top: 20px;
+    }
+
+    .panel-body:not(.two-col) {
+        padding: 0px;
+    }
+
+    .glyphicon {
+        margin-right: 5px;
+    }
+
+    .glyphicon-new-window {
+        margin-left: 5px;
+    }
+
+    .panel-body .radio, .panel-body .checkbox {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .panel-body .list-group {
+        margin-bottom: 0;
+    }
+
+    .margin-bottom-none {
+        margin-bottom: 0;
+    }
+
+    .panel-body .radio label, .panel-body .checkbox label {
+        display: block;
+    }
+</style>
+  </div>
+</div>
+
+</div>
+
+
+
+<footer class="page-footer font-small special-color-dark pt-4">
+<div class="container">
+      <div class="col-bg-12 text-center">
+  <a href="ask.html"><button>Ask a QUESTION</button></a>
+</div>
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p><strong>Contact</strong></p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Monday Morning, NIT Rourkela</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9876512345</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: antraphukan.dib@mail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <a href="admin.html"><br>Admin Login</a>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+          <li><button class="btn pull-right" type="submit">Subscribe</button></li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div type="well">
+  <div class="footer-copyright text-center py-3" style="color:yellow; background-color: grey">© 2020 Copyright:
+    <a href="https://google.com" style="color:white;"> Antra codes for MM Summer 2020</a>
+    <p>   </p>
+  </div>
+  <!-- Copyright -->
+</div>
+</footer>
+<!-- Footer -->
+</body>
+
+
+</html>
